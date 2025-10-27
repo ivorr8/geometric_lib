@@ -23,10 +23,8 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
-        
-    - name: Display Python version
-      run: python -c "import sys; print(f'Python version: {sys.version}')"
       
+    
     - name: Run unit tests
       run: python3 -m unittest test_square.py
       run: python3 -m unittest test_triangle.py
