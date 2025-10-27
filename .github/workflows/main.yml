@@ -27,6 +27,9 @@ jobs:
     
     - name: Run unit tests
       run: python3 -m unittest test_square.py
+    - name: Run unit tests
       run: python3 -m unittest test_triangle.py
+    - name: Run unit tests
       run: python3 -m unittest test_rectangle.py
+    - name: Run unit tests
       run: python3 -m unittest test_circle.py  
