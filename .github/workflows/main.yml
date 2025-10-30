@@ -25,11 +25,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
       
     
-    - name: Run unit tests
+    - name: Run unit tests_square
       run: python3 -m unittest test_square.py
-    - name: Run unit tests
+    - name: Run unit tests_triangle
       run: python3 -m unittest test_triangle.py
-    - name: Run unit tests
+    - name: Run unit tests_rectangle
       run: python3 -m unittest test_rectangle.py
-    - name: Run unit tests
+    - name: Run unit tests_circle
       run: python3 -m unittest test_circle.py  
